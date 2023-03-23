@@ -32,11 +32,13 @@
     "build": "vite build"
   },
   "devDependencies": {
+    "@types/node": "^18.15.5",
     "@types/three": "^0.138.0",
     "concurrently": "^7.0.0",
     "path": "^0.12.7",
     "three": "^0.138.3",
     "typescript": ">=3.0.0",
+    "vite-plugin-dts": "^2.1.0",
     "vite-plugin-glsl": "^0.1.1"
   }
 }

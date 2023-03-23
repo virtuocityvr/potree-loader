@@ -13,6 +13,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
+      formats: ['cjs', 'es', 'umd'],
       name: 'potree-loader',
       fileName: (format) => `potree-loader.${format}.js`,
     },

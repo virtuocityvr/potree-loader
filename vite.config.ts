@@ -14,6 +14,8 @@ export default defineConfig({
     }),
     dts({
       insertTypesEntry: true,
+      clearPureImport: false
+      // staticImport: true
     }),
   ],
   build: {
@@ -23,11 +25,7 @@ export default defineConfig({
       name: 'potree-loader',
       fileName: (format) => `potree-loader.${format}.js`,
     },
-    rollupOptions: {
-      output: {
-        preserveModules: true
-      }
-    },
+    
     sourcemap: true,
   },
   resolve: {

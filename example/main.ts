@@ -1,9 +1,8 @@
 import { Vector3 } from 'three';
-import { PointCloudOctree } from '../src';
+import { PointCloudOctree, PointCloudMaterial } from '../dist';
 import { Viewer } from './viewer';
 
 import "./main.css"
-import { PointCloudMaterial } from '../src/materials';
 
 const targetEl = document.createElement('div');
 targetEl.className = 'container';

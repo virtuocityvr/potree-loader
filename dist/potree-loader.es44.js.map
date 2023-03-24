@@ -1,1 +1,0 @@
-{"version":3,"file":"potree-loader.es44.js","sources":["../src/materials/color-encoding.ts"],"sourcesContent":["export enum ColorEncoding {\r\n  LINEAR = 0,\r\n  SRGB = 1,\r\n}"],"names":["ColorEncoding"],"mappings":"AAAY,IAAAA,sBAAAA,OACVA,EAAAA,EAAA,SAAS,CAAT,IAAA,UACAA,EAAAA,EAAA,OAAO,CAAP,IAAA,QAFUA,IAAAA,KAAA,CAAA,CAAA;"}

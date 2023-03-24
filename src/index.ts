@@ -4,6 +4,7 @@
 // export * from './point-cloud-octree-geometry';
 // export * from './point-cloud-octree-node';
 // export * from './point-cloud-octree-picker';
+export * from './potree-materials'
 export * from './point-cloud-octree';
 // export * from './point-cloud-tree'; // Attempted hotfix for duplicate export error.
 export * from './potree';

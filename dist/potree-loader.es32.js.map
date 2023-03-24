@@ -1,1 +1,0 @@
-{"version":3,"file":"potree-loader.es32.js","sources":["../src/utils/math.ts"],"sourcesContent":["export function clamp(value: number, min: number, max: number): number {\r\n  return Math.min(Math.max(min, value), max);\r\n}\r\n"],"names":["clamp","value","min","max"],"mappings":"AAAgB,SAAAA,EAAMC,GAAeC,GAAaC,GAAqB;AACrE,SAAO,KAAK,IAAI,KAAK,IAAID,GAAKD,CAAK,GAAGE,CAAG;AAC3C;"}

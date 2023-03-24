@@ -1,1 +1,1 @@
-export { PointCloudMaterial, IPointCloudMaterialParameters, BlurMaterial, IBlurMaterialUniforms } from './materials';
+export { PointCloudMaterial, BlurMaterial } from './materials';

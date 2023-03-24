@@ -16,7 +16,7 @@
     // "alwaysStrict": true,
     "target": "es6",
     "experimentalDecorators": true,
-    "typeRoots": ["node_modules/@types"],
+    "typeRoots": ["node_modules/@types", "src/typing"],
     "lib": ["es2020", "dom"],
     "plugins": []
   },

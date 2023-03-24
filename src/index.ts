@@ -1,4 +1,4 @@
-export * from './materials';
+// export * from './materials';
 // export * from './point-attributes';
 // export * from './point-cloud-octree-geometry-node';
 // export * from './point-cloud-octree-geometry';

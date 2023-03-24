@@ -5,7 +5,13 @@ import { resolve } from 'path'
 
 export default defineConfig({
   plugins: [
-    glsl(),
+    glsl({
+      include: [                   // Glob pattern, or array of glob patterns to import
+    '**/*.glsl', '**/*.wgsl',
+    '**/*.vert', '**/*.frag',
+    '**/*.vs', '**/*.fs'
+  ],
+    }),
     dts({
       insertTypesEntry: true,
     }),
@@ -17,7 +23,11 @@ export default defineConfig({
       name: 'potree-loader',
       fileName: (format) => `potree-loader.${format}.js`,
     },
-    
+    rollupOptions: {
+      output: {
+        preserveModules: true
+      }
+    },
     sourcemap: true,
   },
   resolve: {

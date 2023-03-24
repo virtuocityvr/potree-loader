@@ -2,6 +2,7 @@
   "name": "potree-loader",
   "version": "1.10.4",
   "description": "WebGL point cloud viewer",
+  "type": "module",
   "keywords": [
     "point",
     "cloud",
@@ -19,7 +20,7 @@
   "repository": "https://github.com/shiukaheng/potree-loader",
   "dependencies": {
     "proj4": "^2.7.5",
-    "vite": "^2.8.6"
+    "vite": "^4.2.1"
   },
   "files": [
     "dist"
@@ -29,16 +30,21 @@
   "types": "./dist/potree-loader.d.ts",
   "scripts": {
     "start": "vite",
+    "start:fiber": "vite --config dev.vite.config.ts",
     "build": "vite build"
   },
   "devDependencies": {
+    "@react-three/drei": "^9.58.3",
+    "@react-three/fiber": "^8.12.0",
     "@types/node": "^18.15.5",
-    "@types/three": "^0.138.0",
+    "@types/three": "^0.149.0",
     "concurrently": "^7.0.0",
     "path": "^0.12.7",
-    "three": "^0.138.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.149.0",
     "typescript": ">=3.0.0",
     "vite-plugin-dts": "^2.1.0",
-    "vite-plugin-glsl": "^0.1.1"
+    "vite-plugin-glsl": "^1.1.2"
   }
 }
